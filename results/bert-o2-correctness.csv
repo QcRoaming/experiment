@@ -1,0 +1,12 @@
+batch,sequence,original_stock_equal,original_ordered_equal,stock_ordered_equal,max_abs,ordered_bytes,shape_group,live_lower_bound_bytes
+1,16,True,True,True,0.0,50240,grid,50240
+1,64,True,True,True,0.0,213056,grid,213056
+1,128,True,True,True,0.0,458816,grid,458816
+2,16,True,True,True,0.0,100416,grid,100416
+2,64,True,True,True,0.0,426048,grid,426048
+2,128,True,True,True,0.0,917568,grid,917568
+4,16,True,True,True,0.0,200768,grid,200768
+4,64,True,True,True,0.0,852032,grid,852032
+4,128,True,True,True,0.0,1835072,grid,1835072
+3,97,True,True,True,0.0,1006976,extended,1006976
+1,256,True,True,True,0.0,1572928,extended,1572928
