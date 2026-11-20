@@ -1,0 +1,8 @@
+variant,fixture_shape,compile_to_flow,host_flow_pass,compile_from_flow,casts_before,casts_after,ort_all11,max_abs,failed_stage,failure_cause
+B,B1P32S64,True,True,False,0,0,,,compile-from-flow,'memref.store' op write affecting operations on global resources are restricted to workgroup distributed contexts.
+P,B1P32S64,False,,,,,,,compile-to-flow,'flow.tensor.reshape' op value set has 2 dynamic dimensions but only 1 dimension values are attached
+S,B1P32S64,True,True,True,1,0,True,3.637978807091713e-12,,
+BP,B1P32S64,True,True,False,0,0,,,compile-from-flow,'vector.maskedstore' op write affecting operations on global resources are restricted to workgroup distributed contexts.
+BS,B1P32S64,True,True,False,0,0,,,compile-from-flow,'memref.store' op write affecting operations on global resources are restricted to workgroup distributed contexts.
+PS,B1P32S64,False,,,,,,,compile-to-flow,'flow.tensor.reshape' op value set has 2 dynamic dimensions but only 1 dimension values are attached
+BPS,B1P32S64,True,True,False,0,0,,,compile-from-flow,'vector.store' op write affecting operations on global resources are restricted to workgroup distributed contexts.
